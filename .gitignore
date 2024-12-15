@@ -1,0 +1,17 @@
+# Cabal and GHC build artifacts
+dist-newstyle/
+*.hi
+*.o
+*.dyn_hi
+*.dyn_o
+*.prof
+*.eventlog
+
+# Cabal specific
+cabal.project.local
+cabal.project.local~ 
+setup-config
+
+# Temporary and log files
+*.lock
+*.cache
